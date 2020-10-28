@@ -79,6 +79,7 @@ You can simply Reverse Tafqeet in Arabic idioms to The int Number directly
     // RESULT 64.56
 ```
 ##عرض الأرقام العربية بدل الأرقام الإنجليزية والعكس حسب رغبة المستخدم 657 => ٦٥٧ 
+
 You can simply Show Any Value in Arabic Digits Or English Digits
 ```php
     use Alkoumi\LaravelArabicNumbers\Numbers;
