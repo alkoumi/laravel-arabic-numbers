@@ -68,7 +68,7 @@ You can simply get Tafqeet of The int Value directly in Arabic idioms
 
     // RESULT {  أربعة و ستون }
 ```
-## إستخراج الأرقام من التفقيط باللغة العربية للأرقام وليس للمبالغ 😉 مثل { أربعة و ستون } => 64 
+## إستخراج الأرقام من التفقيط باللغة العربية للأرقام وليس للمبالغ 😉 مثل { أربعة و ستون } => 64
 You can simply Reverse Tafqeet in Arabic idioms to The int Number directly 
 ```php
     use Alkoumi\LaravelArabicNumbers\Numbers;
@@ -78,8 +78,7 @@ You can simply Reverse Tafqeet in Arabic idioms to The int Number directly
 
     // RESULT 64.56
 ```
-##عرض الأرقام العربية بدل الأرقام الإنجليزية والعكس حسب رغبة المستخدم 657 => ٦٥٧ 
-
+## عرض الأرقام العربية بدل الأرقام الإنجليزية والعكس حسب رغبة المستخدم 657 =>  ٦٥٧
 You can simply Show Any Value in Arabic Digits Or English Digits
 ```php
     use Alkoumi\LaravelArabicNumbers\Numbers;
