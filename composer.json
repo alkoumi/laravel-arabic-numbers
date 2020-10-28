@@ -1,0 +1,39 @@
+{
+  "name": "alkoumi/laravel-arabic-numbers",
+  "description": "Laravel package to handel ANY thing 🥳 about our Amazing 💝 Arabic Numbers Functions { كل ما يهم محبي لارافيل واستخدام الأرقام العربية مثل تفقيط الأرقام والمبالغ المالية والعكس و عرض الأرقام بالعربية والعكس }",
+  "keywords": [
+    "Tafqeet Numbers تفقيط الأرقام ",
+    "Tafqeet Money تفقيط المبالغ ",
+    "Tafqeet Money تفقيط المبالغ المالية باللغة العربية الفصحى مثل 123 => { مئة و ثلاثة و عشرون ريالًا فقط لا غير }",
+    "Tafqeet Numbers  تفقيط الأرقام باللغة العربية الفصحى مثل 64 => { أربعة و ستون }",
+    "Number From String   إستخراج الأرقام من اللغة العربية مثل { أربعة و ستون } => 64",
+    "Convert Arabic Digits To Enlish Middleware حل مشكلة استقبال المدخلات للأرقام العربية بإستخدام",
+    "Show Arabic Numbers عرض الأرقام العربية بدل الإنجليزية",
+    "Arabic Indic Digits تحويل الأرقام الهندية إلى الأرقام العربية الشرقية الإنجليزية ليفهمها لارافيل ١٢٣ => 123 ",
+    "laravel arabic indic digits",
+    "laravel arabic numbers",
+    " الأرقام العربية "
+  ],
+  "homepage": "https://be.net/komy",
+  "license": "MIT",
+  "authors": [
+		{
+		"name": "Mohamed Elkoumi",
+		"email": "komy66@gmail.com"
+		}
+	],
+  "autoload": {
+      "psr-4": {
+          "Alkoumi\\LaravelArabicNumbers\\": "src/"
+      }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Alkoumi\\LaravelArabicNumbers\\LaravelArabicNumbersServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
