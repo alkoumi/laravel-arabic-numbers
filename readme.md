@@ -1,7 +1,7 @@
 # Laravel Arabic Numbers
 Laravel package to handel ANY THING about our Amazing 💝 Arabic Numbers Functions { كل ما يهم محبي لارافيل واستخدام الأرقام العربية مثل تفقيط الأرقام والمبالغ المالية والعكس و عرض الأرقام بالعربية والعكس }
 
-[![Version](https://poser.pugx.org/alkoumi/laravel-arabic-numbers/version)](//packagist.org/packages/alkoumi/laravel-arabic-numbers) [![License](https://poser.pugx.org/alkoumi/laravel-arabic-numbers/license)](//packagist.org/packages/alkoumi/laravel-arabic-numbers) [![Total Downloads](https://poser.pugx.org/alkoumi/laravel-arabic-numbers/downloads)](//packagist.org/packages/alkoumi/laravel-arabic-numbers)
+![Packagist License](https://img.shields.io/packagist/l/alkoumi/laravel-arabic-numbers) ![Packagist Version](https://img.shields.io/packagist/v/alkoumi/laravel-arabic-numbers) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/alkoumi/laravel-arabic-numbers?color=red)  [![Total Downloads](https://poser.pugx.org/alkoumi/laravel-arabic-numbers/downloads)](//packagist.org/packages/alkoumi/laravel-arabic-numbers) ![Packagist Stars](https://img.shields.io/packagist/stars/alkoumi/laravel-arabic-numbers?color=yellow)
 ## كل ما يهم محبي لارافيل واستخدام الأرقام العربية مثل تفقيط الأرقام والمبالغ المالية والعكس و عرض الأرقام بالعربية والعكس 
 ## Installation for all Laravel Versions 🥳
 You can install the package via composer:
