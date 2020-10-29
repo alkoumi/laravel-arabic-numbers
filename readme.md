@@ -36,7 +36,7 @@ If you want to except any field from transforming request, Just add the fields y
             ];
 
 ## Usage
-![Arabic Numbers](imags/arabic.png)
+![Arabic Numbers](imags/numbers.png)
 
 ##   تفقيط المبالغ المالية باللغة العربية الفصحى مثل 123 => { مئة و ثلاثة و عشرون ريالًا فقط لا غير } 
 You can simply get Tafqeet of The int Money amount directly in Arabic idioms 
