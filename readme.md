@@ -1,8 +1,9 @@
 # Laravel Arabic Numbers
 Laravel package to handel ANY THING about our Amazing 💝 Arabic Numbers Functions { كل ما يهم محبي لارافيل واستخدام الأرقام العربية مثل تفقيط الأرقام والمبالغ المالية والعكس و عرض الأرقام بالعربية والعكس }
 
-[![License](https://poser.pugx.org/alkoumi/laravel-arabic-numbers/license)](https://packagist.org/packages/alkoumi/laravel-arabic-numbers)
-[![Total Downloads](https://poser.pugx.org/alkoumi/laravel-arabic-numbers/downloads)](https://packagist.org/packages/alkoumi/laravel-arabic-numbers)
+[![License](https://poser.pugx.org/alkoumi/laravel-arabic-numbers/license)](//packagist.org/packages/alkoumi/laravel-arabic-numbers)
+[![Latest Stable Version](https://poser.pugx.org/alkoumi/laravel-arabic-numbers/v)](//packagist.org/packages/alkoumi/laravel-arabic-numbers)
+[![Total Downloads](https://poser.pugx.org/alkoumi/laravel-arabic-numbers/downloads)](//packagist.org/packages/alkoumi/laravel-arabic-numbers)
 ## كل ما يهم محبي لارافيل واستخدام الأرقام العربية مثل تفقيط الأرقام والمبالغ المالية والعكس و عرض الأرقام بالعربية والعكس 
 ## Installation for all Laravel Versions 🥳
 You can install the package via composer:
