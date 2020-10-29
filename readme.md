@@ -109,5 +109,5 @@ You can simply Show Any Value in Arabic Digits Or English Digits
 
     // RESULT {تاريخ اليوم : ٢٢-١٠-٢٠٢٠}
 ```
- Huge thanks 💗 to This great library of Khaled Al-Shamaa ar-php.org with many 👨🏻‍💻 upgrades and bug fixes.
+#### Give Me 💗 Cup of ☕️ Coffee here https://patreon.com/mohammadelkoumi
 
