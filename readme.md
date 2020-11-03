@@ -20,7 +20,7 @@ This custom Middleware 🤝 `ConvertArabicDigitsToEnlishMiddleware::class`
 
     Alkoumi\LaravelArabicNumbers\Http\Middleware\ConvertArabicDigitsToEnlishMiddleware::class 
     
-will automatically 🤩 registered in 
+will automatically 🤩 registered 🤗 in 
 
     Illuminate\Contracts\Http\Kernel::class
     
