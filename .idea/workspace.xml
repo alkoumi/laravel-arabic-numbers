@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1cb35cbd-4182-4116-8169-6b80efa0396b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Http/Middleware/ConvertArabicDigitsToEnlish.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LaravelArabicNumbersServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/LaravelArabicNumbersServiceProvider.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +55,23 @@
       <workItem from="1603908411325" duration="982000" />
       <workItem from="1603952229131" duration="4206000" />
       <workItem from="1603977143314" duration="1840000" />
+      <workItem from="1604052107094" duration="343000" />
+      <workItem from="1604387370639" duration="1314000" />
+      <workItem from="1604411407802" duration="2272000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1018" y="482" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604418841647">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1018" y="482" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1604418841647" />
+    <state x="979" y="475" width="711" height="490" key="find.popup" timestamp="1604419636279">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="979" y="475" width="711" height="490" key="find.popup/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1604419636279" />
   </component>
 </project>

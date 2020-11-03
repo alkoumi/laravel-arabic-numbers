@@ -6,7 +6,7 @@ Laravel package to handel ANY THING about our Amazing 💝 Arabic Numbers Functi
 ## Installation for all Laravel Versions 🥳
 You can install the package via composer:
 
-	composer require alkoumi/laravel-arabic-numbers
+    composer require alkoumi/laravel-arabic-numbers
 
 The service provider will automatically get registered. Or you may manually add the service provider in your `config/app.php` file:
 
@@ -15,15 +15,19 @@ The service provider will automatically get registered. Or you may manually add 
         Alkoumi\LaravelArabicNumbers\LaravelArabicNumbersServiceProvider::class,
     ];
 
-## لحل مشكلة استقبال المدخلات التي تحتوي أرقام باللغة العربية استخدم Middleware 
-You can solve receiving Arabic digits in inputs by Passing this Middleware in app\Http\Kernel.php :
+## لحل مشكلة استقبال المدخلات التي تحتوي أرقام باللغة العربية استخدمنا Middleware 
+This custom Middleware 🤝 `ConvertArabicDigitsToEnlishMiddleware::class` 
 
-	    protected $middleware = [
-            //...
-            \Alkoumi\LaravelArabicNumbers\Http\Middleware\ConvertArabicDigitsToEnlish::class,
-        ];
+    Alkoumi\LaravelArabicNumbers\Http\Middleware\ConvertArabicDigitsToEnlishMiddleware::class 
+    
+will automatically 🤩 registered in 
+
+    Illuminate\Contracts\Http\Kernel::class
+    
+so any request have arabic indic [١،٢،٣،٤،٥،٦،٧،٨،٩،٠] Numbers will Translated 🥳 to [1,2,3,4,5,6,7,8,9,0] 
+
 ## Excepting Fields 
-If you want to except any field from transforming request, Just add the fields you want to except them in the Middleware :
+If you want to except any field from transforming request, Just add the fields you want to except them in the Middleware `ConvertArabicDigitsToEnlishMiddleware::class` :
 
 	        /**
              * The fields that should not be Transformed.
@@ -31,7 +35,7 @@ If you want to except any field from transforming request, Just add the fields y
              * @var array
              */
             protected $except = [
-                'numbers','count'
+                'password', 'password_confirmation' ,'numbers','count'
             ];
 
 ## Usage

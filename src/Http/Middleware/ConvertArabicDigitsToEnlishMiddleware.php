@@ -4,7 +4,7 @@ namespace Alkoumi\LaravelArabicNumbers\Http\Middleware;
 
 use Illuminate\Foundation\Http\Middleware\TransformsRequest;
 
-class ConvertArabicDigitsToEnlish extends TransformsRequest
+class ConvertArabicDigitsToEnlishMiddleware extends TransformsRequest
 {
     /**
      * The attributes that should not be transformed.
@@ -12,7 +12,7 @@ class ConvertArabicDigitsToEnlish extends TransformsRequest
      * @var array
      */
     protected $except = [
-        //
+        'password', 'password_confirmation' //
     ];
 
     /**
