@@ -27,11 +27,17 @@
           "Alkoumi\\LaravelArabicNumbers\\": "src/"
       }
   },
+  "config": {
+    "sort-packages": true
+  },
   "extra": {
     "laravel": {
       "providers": [
         "Alkoumi\\LaravelArabicNumbers\\LaravelArabicNumbersServiceProvider"
-      ]
+      ],
+      "aliases": {
+        "Numbers": "Alkoumi\\LaravelArabicNumbers\\Numbers"
+      }
     }
   },
   "minimum-stability": "dev",

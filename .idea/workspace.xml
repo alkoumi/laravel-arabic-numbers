@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1cb35cbd-4182-4116-8169-6b80efa0396b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LaravelArabicNumbersServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/LaravelArabicNumbersServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArabicNumbers.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArabicNumbers.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -56,7 +57,10 @@
       <workItem from="1603977143314" duration="1840000" />
       <workItem from="1604052107094" duration="343000" />
       <workItem from="1604387370639" duration="1314000" />
-      <workItem from="1604411407802" duration="2553000" />
+      <workItem from="1604411407802" duration="2798000" />
+      <workItem from="1604421200205" duration="839000" />
+      <workItem from="1606469532442" duration="197000" />
+      <workItem from="1636878312310" duration="556000" />
     </task>
     <servers />
   </component>

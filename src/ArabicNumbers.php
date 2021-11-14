@@ -230,10 +230,10 @@ class ArabicNumbers
         if (in_array($value, $basic)) {
             return 'basic';
         } elseif (in_array($value, $plural)) {
-            self::setFeminine(2);
+            //self::setFeminine(2);
             return 'plural';
         } else {
-            self::setFeminine(2);
+            //self::setFeminine(2);
             return 'single';
         }
     }
