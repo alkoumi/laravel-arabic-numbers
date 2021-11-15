@@ -9,7 +9,7 @@
     -->
     <individual>
         <number value="1" gender="male">واحد</number>
-        <number value="1" gender="female">واحدة</number>
+        <number value="1" gender="female">واحد</number>
 
         <number value="2" gender="male" grammar="1">إثنان</number>
         <number value="2" gender="male" grammar="2">إثنين</number>

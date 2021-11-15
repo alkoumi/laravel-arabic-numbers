@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1cb35cbd-4182-4116-8169-6b80efa0396b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArabicNumbers.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArabicNumbers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/ArNumbers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/ArNumbers.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,8 @@
       <workItem from="1604411407802" duration="2798000" />
       <workItem from="1604421200205" duration="839000" />
       <workItem from="1606469532442" duration="197000" />
-      <workItem from="1636878312310" duration="1571000" />
+      <workItem from="1636878312310" duration="2976000" />
+      <workItem from="1636956672826" duration="1245000" />
     </task>
     <servers />
   </component>
