@@ -32,7 +32,7 @@ class LaravelArabicNumbersServiceProvider extends ServiceProvider
         });
 
         //Auto Register The Midddleware
-        $kernel = $this->app->make(Kernel::class);
-        $kernel->pushMiddleware(ConvertArabicDigitsToEnlishMiddleware::class);
+        //$kernel = $this->app->make(Kernel::class);
+        //$kernel->pushMiddleware(ConvertArabicDigitsToEnlishMiddleware::class);
     }
 }

@@ -4,27 +4,25 @@ Laravel package to handel ANY THING about our Amazing 💝 Arabic Numbers Functi
 ![Packagist License](https://img.shields.io/packagist/l/alkoumi/laravel-arabic-numbers) ![Packagist Version](https://img.shields.io/packagist/v/alkoumi/laravel-arabic-numbers) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/alkoumi/laravel-arabic-numbers?color=red)  [![Total Downloads](https://poser.pugx.org/alkoumi/laravel-arabic-numbers/downloads)](//packagist.org/packages/alkoumi/laravel-arabic-numbers) ![Packagist Stars](https://img.shields.io/packagist/stars/alkoumi/laravel-arabic-numbers?color=yellow)
 ## كل ما يهم محبي لارافيل واستخدام الأرقام العربية مثل تفقيط الأرقام والمبالغ المالية والعكس و عرض الأرقام بالعربية والعكس 
 ## Installation for all Laravel Versions 🥳
-You can install the package via composer:
+1- You can install the package via composer:
 
     composer require alkoumi/laravel-arabic-numbers
 
-The service provider will automatically get registered. Or you may manually add the service provider in your `config/app.php` file:
+2- You must register the service provider in your `config/app.php` file:
 
     'providers' => [
         // ...
         Alkoumi\LaravelArabicNumbers\LaravelArabicNumbersServiceProvider::class,
     ];
 
-## لحل مشكلة استقبال المدخلات التي تحتوي أرقام باللغة العربية استخدمنا Middleware 
-This custom Middleware 🤝 `ConvertArabicDigitsToEnlishMiddleware::class` 
+3- You must register the Middleware in your `App\Http\Kernel` file:
 
-    Alkoumi\LaravelArabicNumbers\Http\Middleware\ConvertArabicDigitsToEnlishMiddleware::class 
-    
-will automatically 🤩 registered 🤗 in 
+    protected $middleware = [
+        // ...
+        Alkoumi\LaravelArabicNumbers\Http\Middleware\ConvertArabicDigitsToEnlishMiddleware::class
+    ];
 
-    Illuminate\Contracts\Http\Kernel::class
-    
-so any request have arabic indic [١،٢،٣،٤،٥،٦،٧،٨،٩،٠] Numbers will Translated 🥳 to [1,2,3,4,5,6,7,8,9,0] 
+Now any request have arabic indic [١،٢،٣،٤،٥،٦،٧،٨،٩،٠] Numbers will Translated 🥳 to [1,2,3,4,5,6,7,8,9,0] 
 
 ## Excepting Fields 
 If you want to except any field from transforming request, Just add the fields you want to except them in the Middleware `ConvertArabicDigitsToEnlishMiddleware::class` :
@@ -114,4 +112,3 @@ You can simply Show Any Value in Arabic Digits Or English Digits
     // RESULT {تاريخ اليوم : ٢٢-١٠-٢٠٢٠}
 ```
 #### Give Me 💗 Cup of ☕️ Coffee here https://patreon.com/mohammadelkoumi
-
