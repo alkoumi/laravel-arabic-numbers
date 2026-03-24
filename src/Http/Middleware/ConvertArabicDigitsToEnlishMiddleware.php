@@ -24,7 +24,7 @@ class ConvertArabicDigitsToEnlishMiddleware extends TransformsRequest
      */
     protected function transform($key, $value)
     {
-        if (in_array($key, $this->except, true)) {
+        if ((! is_string($value)) || in_array($key, $this->except, true)) {
             return $value;
         }
         return $this->transNumber($value);
